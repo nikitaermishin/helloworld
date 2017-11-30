@@ -8,7 +8,7 @@
   },
   "repository": {
     "type" : "git",
-    "url" : "https://github.com/nikitaermishin/helloworldmodule"
+    "url" : "https://github.com/nikitaermishin/helloworld-module"
   },
   "author": "Nikita Ermishin",
   "license": "MIT",
