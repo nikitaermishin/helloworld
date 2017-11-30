@@ -4,7 +4,7 @@ Hello World Module
 A small node module that expresses 'Hello World' to the console
 
 ## Instalation
-    `npm install @nikitaermishin/helloworld-module`
+    `npm install helloworld-module`
 
 ## Usage
 
