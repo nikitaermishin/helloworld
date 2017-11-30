@@ -1,4 +1,4 @@
-Hello World Module
+Hello World Module [![Build Status](https://travis-ci.org/nikitaermishin/helloworld-module.svg?branch=master)](https://travis-ci.org/nikitaermishin/helloworld-module)
 =========
 
 A small node module that expresses 'Hello World' to the console
