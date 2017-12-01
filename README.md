@@ -9,11 +9,11 @@ A small node module that expresses 'Hello World' to the console
 
 ## Usage
 
-        var helloWorldModule = require('helloworld-module');
+    var helloWorldModule = require('helloworld-module');
 
-        helloWorldModule();
+    helloWorldModule();
 
-    Output in console should be `Hello World`
+    //Output in console should be `Hello World`
 
 ## Tests
 
