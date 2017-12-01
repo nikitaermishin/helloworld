@@ -1,20 +1,33 @@
-'use strict';
+// test.js
+var chai = require('chai'),
+    expect = chai.expect,
+    sinonChai = require('sinon-chai'),
+    sinon = require('sinon'),
+    helloWorldModule = require('../index.js');
 
-const chai = require('chai');
-const expect = chai.expect;
-const helloWorld = require('../index');
-chai.use(require('sinon-chai'));
-require('mocha-sinon');
+chai.use(sinonChai);
 
-describe('#helloWorld', function() {
+describe('Hello World Module', function () {
 
-    beforeEach(function() {
-        this.sinon.stub(console, 'log');
+    beforeEach(function () {
+        sinon.spy(console, 'log');
     });
 
-    it('should log "Hello World"', function() {
-        helloWorld();
-        expect( console.log.calledOnce ).to.be.true;
-        expect( console.log.calledWith('Hello World') ).to.be.true;
+    afterEach(function () {
+        console.log.restore();
+    });
+
+    describe('log to console', function () {
+        it('should log to console', function () {
+            helloWorldModule();
+            expect(console.log).to.be.called;
+        });
+    });
+
+    describe('log to console "Hello World"', function () {
+        it('should log to console', function () {
+            helloWorldModule();
+            expect(console.log).to.have.been.calledWith("Hello World");
+        });
     });
 });
