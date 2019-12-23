@@ -1,5 +1,5 @@
 Hello World Module [![Build Status](https://travis-ci.org/nikitaermishin/helloworld-module.svg?branch=master)](https://travis-ci.org/nikitaermishin/helloworld-module)
-[![Coverage Status](https://coveralls.io/repos/github/nikitaermishin/helloworld-module/badge.svg?branch=master)](https://coveralls.io/github/nikitaermishin/helloworld-module?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/nikitaermishin/helloworld-module/badge.svg?branch=master)](https://coveralls.io/github/nikitaermishin/helloworld-module?branch=master) [![Greenkeeper badge](https://badges.greenkeeper.io/nikitaermishin/helloworld-module.svg)](https://greenkeeper.io/)
 =========
 
 A small node module that expresses 'Hello World' to the console
